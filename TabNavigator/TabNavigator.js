@@ -7,6 +7,7 @@ import ListScreen from '../screens/List.js'
 import { colors } from '../styles/colors.js';
 import Ionicons from 'react-native-vector-icons/Ionicons.js'
 
+
 const Tab = createBottomTabNavigator();
 
  function TabNavigator() {
@@ -32,6 +33,7 @@ const Tab = createBottomTabNavigator();
           tabBarInactiveTintColor: 'gray',
         })}
       >
+        
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="List" component={ListScreen} />
       </Tab.Navigator>
